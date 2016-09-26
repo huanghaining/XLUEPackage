@@ -1,0 +1,22 @@
+{
+  "shell_cmd": "start cmd /c  \"XlueForSublime.exe \"$file_path\" &pause\"",
+    "working_dir": "$file_path",
+    "encoding": "gbk",
+    "variants":
+    [
+        {
+        "name": "single lua in sublime",
+        "shell_cmd":" cmd /c \"xluecl.exe -lua \"$file\" \""
+        },
+         {
+        "name": "single xml in sublime",
+        "shell_cmd":"cmd /c \"xluecl.exe -xml \"$file\" \""
+        }
+        ,
+         {
+        "name": "package xar in sublime",
+        "shell_cmd": "start cmd /c  \"XlueForSublime.exe -package \"$file_path\" &pause\" ",
+        }
+    ]
+
+}

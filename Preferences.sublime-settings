@@ -1,0 +1,42 @@
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.xml"
+		}
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".tags",
+		".tags_sorted_by_file",
+		".gemtags",
+		"CMakeCache.txt",
+		"core.*",
+		"tags",
+		"*.o",
+		"*.a",
+		"*.so"
+	],
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		"CMakeFiles",
+		".git",
+		".svn"
+	],
+	"font_size": 16,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"scroll_past_end": false,
+	"show_encoding": false,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

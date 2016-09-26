@@ -1,0 +1,27 @@
+[
+    {
+    "caption": "lua<-->xml",
+    "id": "openfile",
+    "command": "openfile"
+},
+{
+    "caption": "comment",
+    "id": "commentsel",
+    "command": "commentsel"
+},
+{
+    "caption": "uncomment",
+    "id": "uncommentsel",
+    "command": "uncommentsel"
+},
+{
+    "caption": "Open Folder and Select File",
+    "id": "openfolder",
+    "command": "openfolder"
+},
+{
+    "caption": "all complete",
+    "id": "complete",
+    "command": "complete"
+}
+]

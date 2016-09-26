@@ -1,0 +1,18 @@
+{
+    "scope": "text.xml",
+
+    "completions":
+    [
+
+    // key words
+    {"trigger": "<xlue>\nkeyword", "contents": "xlue>\n\t\n</xlue>"},
+    {"trigger": "<attr\tkeyword", "contents": "attr name=\"\" type=\"\" \/>"},
+    {"trigger": "<event\tkeyword", "contents": "event name=\"\" file=\"$TM_FILENAME.lua\" func=\"\" \/>"},
+    {"trigger":"<animation_def\tkeyword","contents":"animation_def class=\"\">\n\t<attr_def>\n\t\n\t</attr_def>\n\t<method_def>\n\t\n\t</method_def>\n</animation_def>"},
+    {"trigger": "<attr>\nkeyword", "contents": "attr>\n\t<left></left>\n\t<top></top>\n\t<width></width>\n\t<height></height>\n</attr>"},
+    {"trigger": "<control\tkeyword", "contents":"control class=\"\">\n\t<attr_def>\n\t\n\t</attr_def>\n\t<method_def>\n\t\n\t</method_def>\n\t<event_def>\n\t\n\t</event_def>\n\t<objtemplate>\n\t\t<children>\n\t\n\t\t</children>\n\t</objtemplate>\n</control>"},
+    {"trigger": "<obj\tkeyword", "contents": "obj id=\"\" class=\"\">\n\t<attr>\n\t\t<left></left>\n\t\t<top></top>\n\t\t<width></width>\n\t\t<height></height>\n\t</attr>\n\t<children>\n\t\n\t</children>\n\t<eventlist>\n\t\n\t</eventlist>\n</obj>"},
+    {"trigger": "<objtreetemplate\tkeyword", "contents": "objtreetemplate id=\"\" class=\"\">\n\t<attr>\n\t\t<left></left>\n\t\t<top></top>\n\t\t<width></width>\n\t\t<height></height>\n\t</attr>\n\n</objtreetemplate>"},
+    {"trigger": "<hostwndtemplate\tkeyword", "contents": "hostwndtemplate id=\"\" class=\"\">\n\t<attr>\n\t\t<layered></layered>\n\t\t<title></title>\n\t\t<left></left>\n\t\t<top></top>\n\t\t<width></width>\n\t\t<height></height>\n\t\t<cacheleft></cacheleft>\n\t\t<cachetop></cachetop>\n\t\t<cachewidth></cachewidth>\n\t\t<cacheheight></cacheheight>\n\t\t<center></center>\n\t\t<topmost></topmost>\n\t\t<visible></visible>\n\t\t<enable></enable>\n\t\t<maxbox></maxbox>\n\t\t<minbox></minbox>\n\t\t<sysmenu></sysmenu>\n\t\t<minwidth></minwidth>\n\t\t<minheight></minheight>\n\t\t<appwindow></appwindow>\n\t\t<fps></fps>\n\t\t<ellipse></ellipse>\n\t\t<border></border>\n\t</attr>\n\t<eventlist>\n\t\n\t</eventlist>\n</hostwndtemplate>"},
+    ]
+}

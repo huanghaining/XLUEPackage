@@ -1,0 +1,7 @@
+
+[
+    { "keys": ["alt+o"], "command": "openfile" },
+    { "keys": ["alt+c"], "command": "commentsel" },
+    { "keys": ["shift+alt+c"], "command": "uncommentsel" },
+    { "keys": ["shift+ctrl+o"], "command": "openfolder" },
+]
